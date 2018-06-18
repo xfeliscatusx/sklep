@@ -1,0 +1,45 @@
+﻿@model Strona.Models.Skarpetki
+@using Strona.Infrastructure
+
+@{
+    ViewBag.Title = "Szczegoly";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="ListaKategoriZawartosc">
+    @Html.Action("KategorieMenu")
+    <div id="KategorieListPrawaSekcja">
+        <div id="Breadcrumb">
+            <img src="../Content/Images/dommaly.png" />
+            <a href="link">
+                @Html.MvcSiteMap().SiteMapPath()
+            </a>
+        </div>
+        <section id="SekcjaKurs">
+            <div id="KursLewa">
+                <img src="@Url.ObrazkiSciezka(Model.NazwaPlikuObrazka)" />
+            </div>
+            <div id="KursPrawa">
+                @*<div id="KursInfo">
+                        @Model.OpisSkrocony
+                    </div>*@
+
+                <div id="KursNazwa">
+                    <h1>
+                        @Model.NazwaSkarpetek
+                    </h1>
+                    <div id="KursOpis">
+                        @Model.OpisSkarpetek
+                    </div>
+                </div>
+                <div id="KursCena">
+                    <div>
+                        @string.Format("{0:0.##}", Model.Cena)<span>PLN</span>
+                    </div>
+                    <a href="@Url.Action("DodajDoKoszyka","Koszyk", new { id = Model.SkarpetkiId }) "></a>
+                </div>
+
+            </div>
+        </section>
+    </div>
+</div>

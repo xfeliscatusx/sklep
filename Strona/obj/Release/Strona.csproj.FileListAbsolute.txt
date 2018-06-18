@@ -1,0 +1,16 @@
+C:\Users\Monika\source\repos\Strona\Strona\bin\Strona.dll.config
+C:\Users\Monika\source\repos\Strona\Strona\bin\Strona.dll
+C:\Users\Monika\source\repos\Strona\Strona\bin\Strona.pdb
+C:\Users\Monika\source\repos\Strona\Strona\obj\Release\Strona.csproj.CoreCompileInputs.cache
+C:\Users\Monika\source\repos\Strona\Strona\obj\Release\Strona.dll
+C:\Users\Monika\source\repos\Strona\Strona\obj\Release\Strona.pdb
+C:\Users\Monika\source\repos\Strona\Strona\bin\Microsoft.Web.Administration.dll
+C:\Users\Monika\source\repos\Strona\Strona\bin\Antlr3.Runtime.pdb
+C:\Users\Monika\source\repos\Strona\Strona\bin\MvcSiteMapProvider.xml
+C:\Users\Monika\source\repos\Strona\Strona\bin\MvcSiteMapProvider.WebActivator.xml
+C:\Users\Monika\source\repos\Strona\Strona\obj\Release\Strona.csprojResolveAssemblyReference.cache
+C:\Users\Monika\source\repos\Strona\Strona\obj\Release\Strona.Migrations.InitialCreate.resources
+C:\Users\Monika\source\repos\Strona\Strona\obj\Release\Strona.Migrations.dodaniePolaOpisSkrocony.resources
+C:\Users\Monika\source\repos\Strona\Strona\obj\Release\Strona.Migrations.dodaniePolaTest.resources
+C:\Users\Monika\source\repos\Strona\Strona\obj\Release\Strona.Migrations.usunieciePolaTest.resources
+C:\Users\Monika\source\repos\Strona\Strona\obj\Release\Strona.csproj.GenerateResource.Cache

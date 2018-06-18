@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Kategorie";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div id="ListaKategoriZawartosc">
+    @Html.Action("KategorieMenu")
+    <div id="KategorieListPrawaSekcja">
+        <div id="Breadcrumb">
+            <img src="../Content/Images/dommaly.png" />
+            <a href="link">
+                @Html.MvcSiteMap().SiteMapPath()
+            </a>
+           
+        </div>
+
+        <div id="SekcjaListaKategorii">
+            @Html.Partial("_SkarpetkiList")
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    @System.Web.Optimization.Scripts.Render("~/bundles/jqueryAndJqueryUI")
+
+    
+
+}

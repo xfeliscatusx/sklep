@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Strona.Models.Skarpetki>
+@using Strona.Infrastructure
+
+
+    <ul class="KursyTrzyKolumny MalaListaKategorii">
+        @foreach(var skarpetki in Model)
+        {
+        <li>
+            <article>
+                <a class="dodajDoKoszykaLink" href="@Url.Action("DodajDoKoszyka", "Koszyk", new { id = skarpetki.SkarpetkiId })" >
+                    <img src="@Url.Content("~/Content/Images/koszyk.png") "/>
+                </a>
+
+                @if (skarpetki.Bestseller)
+                {
+                    <div class="bestsellerFlag"></div>
+                }
+
+                <a class="kursSzczegolyLink" href="@Url.Action("Szczegoly", "Skarpetki", new { id = skarpetki.SkarpetkiId })" >
+                    <img class="kurs" src="@Url.ObrazkiSciezka(skarpetki.NazwaPlikuObrazka)" />
+                    <h1>
+                        @skarpetki.NazwaSkarpetek
+                    </h1>
+                </a>
+            </article>
+        </li>
+        }
+    </ul>
+

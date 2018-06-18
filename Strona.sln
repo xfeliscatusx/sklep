@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strona", "Strona\Strona.csproj", "{8F7E2667-0130-41FD-A190-FE202A56A4A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strona.Tests", "Strona.Tests\Strona.Tests.csproj", "{674FD9E5-B60C-4DD2-89D5-187AC08E4982}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F7E2667-0130-41FD-A190-FE202A56A4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7E2667-0130-41FD-A190-FE202A56A4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7E2667-0130-41FD-A190-FE202A56A4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7E2667-0130-41FD-A190-FE202A56A4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674FD9E5-B60C-4DD2-89D5-187AC08E4982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674FD9E5-B60C-4DD2-89D5-187AC08E4982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674FD9E5-B60C-4DD2-89D5-187AC08E4982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674FD9E5-B60C-4DD2-89D5-187AC08E4982}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B25C2911-00B3-4160-B2B8-F5D4738B043E}
+	EndGlobalSection
+EndGlobal

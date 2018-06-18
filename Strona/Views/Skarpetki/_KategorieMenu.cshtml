@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Strona.Models.Kategoria>
+@using Strona.Infrastructure
+
+<nav class="KategorieVertical">
+    <ul>
+        @foreach (var kategoria in Model)
+        {
+            <li>
+                <a href="@Url.Action("Lista","Skarpetki", new { nazwaKategorii = kategoria.NazwaKategorii.ToString() })">
+                   @kategoria.NazwaKategorii                   
+                </a>
+            </li>
+        }
+    </ul>
+</nav>

@@ -1,0 +1,13 @@
+C:\Users\Monika\source\repos\Strona\Strona\bin\Strona.dll.config
+C:\Users\Monika\source\repos\Strona\Strona\bin\Strona.dll
+C:\Users\Monika\source\repos\Strona\Strona\bin\Strona.pdb
+C:\Users\Monika\source\repos\Strona\Strona\bin\Microsoft.Web.Administration.dll
+C:\Users\Monika\source\repos\Strona\Strona\obj\Debug\Strona.Migrations.InitialCreate.resources
+C:\Users\Monika\source\repos\Strona\Strona\obj\Debug\Strona.Migrations.dodaniePolaOpisSkrocony.resources
+C:\Users\Monika\source\repos\Strona\Strona\obj\Debug\Strona.Migrations.dodaniePolaTest.resources
+C:\Users\Monika\source\repos\Strona\Strona\obj\Debug\Strona.Migrations.usunieciePolaTest.resources
+C:\Users\Monika\source\repos\Strona\Strona\obj\Debug\Strona.csproj.GenerateResource.Cache
+C:\Users\Monika\source\repos\Strona\Strona\obj\Debug\Strona.csproj.CoreCompileInputs.cache
+C:\Users\Monika\source\repos\Strona\Strona\obj\Debug\Strona.dll
+C:\Users\Monika\source\repos\Strona\Strona\obj\Debug\Strona.pdb
+C:\Users\Monika\source\repos\Strona\Strona\obj\Debug\Strona.csprojResolveAssemblyReference.cache

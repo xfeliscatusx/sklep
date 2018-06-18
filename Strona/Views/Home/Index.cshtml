@@ -1,0 +1,66 @@
+﻿
+@model Strona.ViewModels.HomeViewModel
+@using Strona.Infrastructure
+
+@{
+    ViewBag.Title = "UNIQUE SOCKS";
+}
+<nav class="kategorieHorizontal">
+    <ul>
+        @foreach (var kategoria in Model.Kategorie)
+        {
+            <li>
+                <a href="@Url.Action("Lista","Skarpetki", new { nazwaKategorii = kategoria.NazwaKategorii.ToLower() })">
+                    @kategoria.NazwaKategorii
+                </a>
+            </li>
+        }
+    </ul>
+    <a href="link">
+        <img id="baner" src="../Content/Images/baner.png" />
+    </a>
+</nav>
+
+<section>
+    <ul class="KursyTrzyKolumny duzaListaKursy">
+        @*KursyTrzyKolumny duzaListaKursy"*@
+        @foreach (var bestseller in Model.Bestsellery)
+        {
+            <li>
+                <article>
+                    <a class="dodajDoKoszykaLink" href="@Url.Action("DodajDoKoszyka","Koszyk", new { id = bestseller.SkarpetkiId})">
+                        <img src="../Content/Images/koszyk.png" />
+                    </a>
+                    <a class="kursSzczegolyLink" href="@Url.Action("Szczegoly", "Skarpetki", new { id = bestseller.SkarpetkiId})">
+                        <div class="bestsellerFlag"></div>
+                        <img class="kurs" src="@Url.ObrazkiSciezka(bestseller.NazwaPlikuObrazka)" />
+                        <h1>
+                            @bestseller.NazwaSkarpetek
+                        </h1>
+                    </a>
+                </article>
+            </li>
+        }
+    </ul>
+</section>
+<section>
+    <ul class="KursyTrzyKolumny duzaListaKursy">
+        @foreach (var nowosc in Model.Nowosci)
+        {
+            <li>
+                <article>
+                    <a class="dodajDoKoszykaLink" href="@Url.Action("DodajDoKoszyka", "Koszyk", new { id = nowosc.SkarpetkiId })">
+                        <img src="../Content/Images/koszyk.png" />
+                    </a>
+                    <a class="kursSzczegolyLink" href="@Url.Action("Szczegoly", "Skarpetki", new { id = nowosc.SkarpetkiId })">
+                        <div class="newFlag"></div>
+                        <img class="kurs" src="@Url.ObrazkiSciezka(nowosc.NazwaPlikuObrazka)" />
+                        <h1>
+                            @nowosc.NazwaSkarpetek
+                        </h1>
+                    </a>
+                </article>
+            </li>
+        }
+    </ul>
+</section>
